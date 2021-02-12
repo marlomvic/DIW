@@ -1,0 +1,83 @@
+body {
+    font-family: Arial;
+    color: #6c7b84;
+    font-size: 12px;
+    background-image: url("../imaxes/fondo.jpg");
+    margin: 0px;
+}
+header {
+    margin: auto;
+    width: 800px;
+    padding-top: 38px;
+    padding-bottom: 19px;
+}
+main{
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 15px;
+}
+main header {
+    height: 90px;
+    padding-top: 0px;
+    position: relative;
+}
+main header h1{
+    font-size: 250%;
+    margin-bottom: 15px;
+    margin: 0px;
+}
+main header h2{
+    width: 500px;
+    font-size: 125%;
+    font-weight: 100;
+    margin: 0px;
+}
+nav {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-image: url("../imaxes/fondomenu.jpg");
+    margin-top: 10px;
+}
+ul {
+    padding-left: 0px;
+    margin: auto;
+}
+li {
+    display: inline; 
+
+}
+li a{
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #3a86b8;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left-color: #3a86b8;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+li a:hover {
+    background-color: #d2e9f0;
+}
+li a:active {
+    background-color: #e9f1f4;
+}
+section {
+
+}
+#medico{
+    background-image: url("../imaxes/imgport.png");
+    width: 177px;
+    height: 231px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+
+}
+.negra {
+    background-color: #000;
+    height: 19px;
+}
